@@ -1,0 +1,59 @@
+// https://developers.google.com/protocol-buffers/docs/javatutorial
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+// helps to prevent naming conflicts between different projects
+package tutorial;
+
+// enables generating a separate .java file for each generated class
+option java_multiple_files = true;
+
+// specifies in what Java package name your generated classes should live
+option java_package = "uc.mei.is";
+
+// defines the class name of the wrapper class which will represent this file
+option java_outer_classname = "ProtoApp";
+
+message ProtoStudent {
+  optional string uuid = 1;
+
+  optional string name = 2;
+
+  optional string phoneNum = 3;
+
+  optional string addr = 4;
+
+  optional google.protobuf.Timestamp bday = 5;
+
+  optional string profuuid = 6;
+
+  optional string gender = 7;
+
+  optional google.protobuf.Timestamp registrationDate = 8;
+
+}
+
+message ProtoProfessor {
+  optional string uuid = 1;
+
+  optional string name = 2;
+
+  optional string phoneNum = 3;
+
+  optional string addr = 4;
+
+  optional google.protobuf.Timestamp bday = 5;
+
+  repeated ProtoStudent student = 6;
+}
+
+message ProtoProfList {
+  repeated ProtoProfessor professor = 1;
+}
+
+
+
+
+
+
