@@ -4,9 +4,9 @@
 
 ## Âmbito
 
-Faculdade de Ciências e Tecnologia da Universidade de Coimbra (FCTUC)
-Mestrado em Engenharia Informática (MEI) - Percurso: Engenharia de Software
-Integração de Sistemas (IS) - 2022/2023
+Faculdade de Ciências e Tecnologia da Universidade de Coimbra (FCTUC) <br />
+Mestrado em Engenharia Informática (MEI) - Percurso: Engenharia de Software <br />
+Integração de Sistemas (IS) - 2022/2023 <br />
 
 <br />
 
